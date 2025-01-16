@@ -32,10 +32,10 @@ score1El.textContent = 0;
 
 
 const init = function () {
-    let currentScore = 0;
+    currentScore = 0;
     // to keep track of the active player
-    let activePlayer = 0;
-    let playing = true;
+    activePlayer = 0;
+    playing = true;
     score0El.textContent = 0;
     score1El.textContent = 0;
     current0El.textContent = 0;
